@@ -9,7 +9,7 @@ export default function App() {
         <AnimatedText
           text="Take your brand to the next level using the latest marketing tools and creative ideas to make your brand's presence stand out.
         We're all about making your business shine in the competitive digital world."
-          style="mt-[-100vh] text-[8px]"
+          style="mt-[-85vh] text-[8px]"
         />
         <ParallaxImage
           smallImage="/img/kengu-1.JPG"
