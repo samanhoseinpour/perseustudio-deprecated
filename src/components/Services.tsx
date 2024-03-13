@@ -5,11 +5,11 @@ const ServiceCard = ({ icon, title, details }: ServiceCardProps) => {
     <>
       <div className="w-full px-4 max-sm:mx-4 md:w-1/2 lg:w-1/3">
         <div className="shadow-2 dark:bg-dark-2 mb-9 rounded-[20px] bg-white p-10 shadow-lg md:px-7 xl:px-10">
-          <div className="bg-primary mb-4 flex items-center justify-end rounded-2xl stroke-blue-700">
+          <div className="bg-primary mb-4 flex items-center justify-end rounded-2xl stroke-gray-700">
             {icon}
           </div>
 
-          <h4 className="text-dark mb-[14px] text-xl font-semibold text-blue-700">
+          <h4 className="text-dark mb-[14px] text-xl font-semibold text-gray-700">
             {title}
           </h4>
           <p className="text-body-color dark:text-dark-6 text-[12px]">
@@ -28,7 +28,7 @@ export default function Services() {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-3 max-w-[510px] text-center lg:mb-5">
-              <h2 className="text-dark mb-3 text-3xl font-bold leading-[1.2] text-blue-700 sm:text-4xl md:text-[40px]">
+              <h2 className="text-dark mb-3 text-3xl font-bold leading-[1.2] text-gray-700 sm:text-4xl md:text-[40px]">
                 We Offer
               </h2>
               <p className="text-body-color dark:text-dark-6 text-base max-sm:px-2">

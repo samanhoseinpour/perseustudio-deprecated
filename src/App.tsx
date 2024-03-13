@@ -1,4 +1,4 @@
-import { AnimatedText, Services, Faq } from "./components";
+import { AnimatedText, Services, Partnerships } from "./components";
 import { ParallaxImage } from "./components/ParallaxImage";
 import "./index.css";
 
@@ -30,7 +30,7 @@ export default function App() {
         <ParallaxImage
           smallImage="/img/kengo-3.JPG"
           largeImage="/img/renovation-1.JPG"
-          smallImageSide="right"
+          smallImageSide="left"
           parallaxDistance="100%"
           parallaxTitle="Data-Driven Creativity"
           parallaxDesc="Perseus Studio goes beyond beautiful visuals. We leverage data insights to fuel our creative fire.  Our strategies are built on audience understanding, ensuring your brand message resonates deeply. We translate data into compelling storytelling, maximizing engagement and driving results."
@@ -47,7 +47,7 @@ export default function App() {
       <section>
         <AnimatedText text="Explore Our Services" style="mt-[-40vh]" />
         <Services />
-        <Faq />
+        <Partnerships />
       </section>
     </>
   );

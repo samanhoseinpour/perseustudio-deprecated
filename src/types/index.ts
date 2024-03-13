@@ -32,3 +32,9 @@ export type ServiceCardProps = {
   title: string;
   details: string;
 };
+
+export type PartnershipsProps = {
+  href: string;
+  imgSrc: string;
+  Alt: string;
+};
