@@ -24,7 +24,7 @@ const Partnerships = () => {
         <div className="w-full px-4">
           <div className="mx-auto mb-3 max-w-[510px] text-center lg:mb-5">
             <h2 className="text-dark mb-3 text-3xl font-bold leading-[1.2] text-gray-700 sm:text-4xl md:text-[40px]">
-              Our Trusted Partners
+              Our Valued Clients
             </h2>
             <p className="text-body-color dark:text-dark-6 text-base max-sm:px-2">
               We are confident that we can find the process that will help you
@@ -54,6 +54,11 @@ const Partnerships = () => {
                   href="#"
                   Alt="Brand Image"
                   imgSrc="/img/partnerships/Boxing-Club.png"
+                />
+                <SingleImage
+                  href="#"
+                  Alt="Brand Image"
+                  imgSrc="/img/partnerships/CDN_Flooring_&_Renovation.jpg"
                 />
                 <SingleImage
                   href="#"
