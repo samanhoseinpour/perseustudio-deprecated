@@ -23,7 +23,7 @@ const ServiceCard = ({ icon, title, details }: ServiceCardProps) => {
 
 export default function Services() {
   return (
-    <section className="dark:bg-dark pb-18 lg:pb-[180px] ">
+    <section className="dark:bg-dark">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">

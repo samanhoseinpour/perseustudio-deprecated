@@ -5,7 +5,7 @@ const SingleImage = ({ href, imgSrc, Alt }: PartnershipsProps) => {
     <>
       <a
         href={href}
-        className="mx-4 flex w-[200px] items-center justify-center  2xl:w-[180px]"
+        className="mx-4 flex w-[200px] items-center justify-center max-md:w-[50px] 2xl:w-[180px]"
       >
         <img
           src={imgSrc}
@@ -21,7 +21,7 @@ const Partnerships = () => {
   return (
     <>
       <div className="-mx-4 flex flex-wrap">
-        <div className="w-full px-4">
+        <div className="mt-[80px] w-full px-4">
           <div className="mx-auto mb-3 max-w-[510px] text-center lg:mb-5">
             <h2 className="text-dark mb-3 text-3xl font-bold leading-[1.2] text-gray-700 sm:text-4xl md:text-[40px]">
               Our Valued Clients
@@ -35,11 +35,11 @@ const Partnerships = () => {
       </div>
       {/* ====== Brands Section Start */}
 
-      <section className="dark:bg-dark bg-white py-20 lg:py-[40px]">
+      <section className="dark:bg-dark bg-white py-10 lg:py-[20px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="flex flex-wrap items-center justify-center">
+              <div className="flex flex-wrap items-center justify-center gap-2">
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
